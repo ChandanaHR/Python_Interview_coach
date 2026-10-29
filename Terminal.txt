@@ -1,0 +1,7 @@
+Open powershell: 
+Type: python -m venv .venv 
+Type: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Type:  .\.venv\Scripts\Activate.ps1
+Install streamlit: python -m pip install streamlit python-dotenv
+Run: streamlit run app.py
+python -m pip install python-dotenv
